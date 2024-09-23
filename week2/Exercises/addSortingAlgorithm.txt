@@ -1,3 +1,26 @@
 EXERCISE 1
 Allow the user to input digits, afterwards sort and print them in
-numerical order
+numerical order.
+
+-- I collect numbers from the user with some rules
+    - Max. 10 numbers can be entered
+    - 1 number at a time
+    - numbers will be integer without decimals
+
+-- After getting all 
+    I pick the numbers from my list by putting on the table. When I pick the number and see 
+    what nr it is, I check the ones on the table to define where should I put the new nr.
+
+    for example numbers are ( 15 20 35 11 2 8  )
+    Imagine I already picked 35 and 2. I put them by starting from left as shown below
+
+    2 , 35 
+
+    then I pick again a nr. I picked 8.
+    Now I check my list from left and If my number is smaller
+    than 2 or now ? If it is true I put there. If not I pass the number 2 and 
+    check the next number. I repeat the same condition above and my number will be smaller
+    than 35 so I will place my new number(8) just before the 35. 
+
+
+
