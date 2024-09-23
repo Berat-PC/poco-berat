@@ -1,0 +1,3 @@
+EXERCISE 1
+Allow the user to input digits, afterwards sort and print them in
+numerical order
