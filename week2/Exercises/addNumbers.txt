@@ -1,0 +1,27 @@
+Ex. 3.1.2 (*) - Add numbers ca. 
+Allow the user to input numbers, add them and print the result.
+
+
+Variables   NUMBER1,
+            NUMBER2,
+            sumOfNrs;
+
+
+1.  Prompt "Please enter the first number."
+Check the input 
+    IF it is only number continue
+    ELSE display prompt "Invalid Character! Please enter only number."
+    direct the user to the first step.
+Get NUMBER1 as first input and store 
+
+
+2.  Prompt "Please enter the second number."
+Check the input 
+    IF it is only number continue
+    ELSE display "Invalid Character! Please enter only number."
+    direct the user to the second step.
+Get NUMBER2 as second input and store
+sumOfNrs = NUMBER1 + NUMBER2
+
+
+3.  Display "Result = " + sumOfNrs
