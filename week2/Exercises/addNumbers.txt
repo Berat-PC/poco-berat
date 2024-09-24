@@ -9,19 +9,21 @@ Variables   NUMBER1,
 
 1.  Prompt "Please enter the first number."
 Check the input 
-    IF it is only number continue
-    ELSE display prompt "Invalid Character! Please enter only number."
-    direct the user to the first step.
-Get NUMBER1 as first input and store 
+    IF it is only number, continue
+    ELSE display "Invalid Character! Please enter only number."
+    send the user to the step 1
+2.  Get NUMBER1 as first input and store 
 
 
-2.  Prompt "Please enter the second number."
+3.  Prompt "Please enter the second number."
 Check the input 
     IF it is only number continue
     ELSE display "Invalid Character! Please enter only number."
-    direct the user to the second step.
-Get NUMBER2 as second input and store
+    send the user to the step 3
+
+4.  Get NUMBER2 as second input and store
+
 sumOfNrs = NUMBER1 + NUMBER2
 
 
-3.  Display "Result = " + sumOfNrs
+    Display "Result = " + sumOfNrs
