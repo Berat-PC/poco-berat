@@ -1,0 +1,53 @@
+Ex. 3.1.5 (*) - Combine ca. 60 min
+Combine Ex. 3.1.2 and 3.1.4 into one program.
+
+The program should ask the user if they want to add or subtract two numbers. 
+Then the program should ask for the two numbers and print the result.
+
+
+Variables   NUMBER1,
+            NUMBER2,
+            sumOfNrs,
+            subResult;
+Display : " Which operation you want to use? ADD or SUBTRACT?"
+
+IF User chooses ADD
+    1.  Prompt "You have chosen Add; Please enter the first number."
+         Check the input 
+         IF it is only number, continue to step 2.
+         ELSE display "Invalid Character! Please enter only number." then send the user to the step 1
+    
+    2.  Get NUMBER1 as first input and store 
+
+
+    3.  Prompt "Please enter the second number."
+        Check the input 
+        IF it is only number, continue to step 4
+        ELSE display "Invalid Character! Please enter only number." then send the user to the step 3
+    4.  Get NUMBER2 as second input and store
+
+            sumOfNrs = NUMBER1 + NUMBER2
+
+
+            Display "Result = " + sumOfNrs
+
+
+IF User chooses SUBTRACTION
+    1.  Prompt "You have chosen Subtract; Please enter the first number."
+    Check the input 
+    IF it is only number, continue to step 2.
+    ELSE display "Invalid Character! Please enter only number." then send the user to the step 1
+    
+    2.  Get NUMBER1 as first input and store 
+
+
+    3.  Prompt "Please enter the second number."
+        Check the input 
+        IF it is only number, continue to step 4
+        ELSE display "Invalid Character! Please enter only number." then send the user to the step 3
+    4.  Get NUMBER2 as second input and store
+
+            subResult = NUMBER1 - NUMBER2
+
+
+            Display "Result = " + subResult;

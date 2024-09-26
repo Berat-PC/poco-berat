@@ -1,0 +1,45 @@
+Ex. 3.2.2 (**) 
+Write a program that asks the user for a date. 
+-> Find the day of the year for the given date. 
+
+For example,
+January 1st would be 1, and December 31st is 365.
+a) Do not include leap years.
+b) Include leap years. Check the rules for leap years on the internet, and implement them in your program.
+
+Leap year calculation : 
+ If the year is divisible by four, it's a leap year. 
+ But if the year can be divided by 100 as well as four, it's not a leap year. 
+ However, if the year is divisible by 400, it is a leap year.
+
+
+ a ) 
+        Variables 
+            inputYear as String ex(march 17);
+            dayNr;
+            january 1-31 = 0, 
+            february 32+28-1 = 32 ,
+            march = 60 ,
+            april = march + 31-1 
+            may = april + 
+            june 30 
+            july 31
+            september 30
+            october 31
+            november 30
+            december 31
+
+1.  Display "Enter the date ex: December 5th"
+    store as inputYear
+2.  Check the inputYear
+        If it contains the month specified as one of above variable. then store it to the related month variable.
+            then 
+            check
+        If it contains numbers then store the numbers into dayNr.
+        Else send user to the step 1
+
+    
+
+
+
+

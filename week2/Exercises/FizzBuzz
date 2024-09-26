@@ -1,0 +1,31 @@
+
+Ex. 3.2.1 (**) - FizzBuzz
+Write a program that prints the numbers from 1 to 100. 
+** for multiples of three print "Fizz" instead of the
+number and 
+** for the multiples of five print "Buzz". 
+** For numbers which are multiples of both three and five print "FizzBuzz".
+
+
+Variables 
+                fizz = counter%3 is equal to "0"
+                buzz = counter%5 is equal to "0"
+            fizzBuzz = both counter%3 and counter%5 are equal to "0"
+            counter  = 0
+
+    COMPUTER starts to count from 0 to 100. While counting , each number will be named as counter.
+    
+    If counter is equal to 0 after both divided by 3 and at the same time 5
+    Display fizzBuzz and continue counting
+    
+    Else If counter is equal to 0 after divided by 3
+    Display fizz and continue counting
+    
+    Else If counter is equal to 0 after divided by 5
+    Display buzz and continue counting
+
+    ELSE 
+    Display the number's itself.
+    
+    
+
