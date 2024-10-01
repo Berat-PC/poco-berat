@@ -6,3 +6,4 @@ Write a program that
 
 let inputName = prompt("Please enter your name : ")
 alert("Welcome dear "+inputName);
+

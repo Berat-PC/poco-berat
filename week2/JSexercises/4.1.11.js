@@ -9,8 +9,8 @@
 
     */
 
-    let startFuelLvl;
-    let totalAstros;
+    let startFuelLvl=0;
+    let totalAstros=0;
     let altitudeReached=0;
 
     //a) Prompt the user to enter the starting fuel level. The loop should continue until the user enters a positive value greater than 5000 but less than 30000.
@@ -18,9 +18,9 @@
     while(true) { 
         startFuelLvl = Number(prompt("Please enter the starting fuel level : "));
         
-        if (startFuelLvl<1000) {console.log("Under 5000 lt engine can not be started")}
+        if (startFuelLvl<5000) {console.log("Under 5000 lt engine can not be started")}
         
-        else if (startFuelLvl>5000) {console.log("Above 30000 lt engine can not be started")}
+        else if (startFuelLvl>30000) {console.log("Above 30000 lt engine can not be started")}
         
         else {console.log("Engine is starting!"); break;}
     }
@@ -43,17 +43,15 @@
     not reach 0). */
     
     altitudeReached = Number(prompt("Please enter the altitude you'd like to reach : "));
-    while(true) {
+    
+    while(startFuelLvl/totalAstros>=100) {
+            
+        startFuelLvl = startFuelLvl - totalAstros*100;
+             
+        console.log("Your altitude is " + altitudeReached + " and your fuel level is : " + startFuelLvl);
         
-            if (startFuelLvl/totalAstros>=100) {
-            startFuelLvl = startFuelLvl - totalAstros*100;
-           
-            altitudeReached += 50;
-
-            console.log("your altitude is " + altitudeReached + "and your fuel level is : " + startFuelLvl); 
-
-        }  else if (startFuelLvl<500) {console.log("You are out of fuel!!!"); 
-            break;  
-        }   
-
-    }
+        altitudeReached += 50;
+    
+    } 
+    console.log("SOS SOS SOS , You are out of fuel, turn home!") 
+    
