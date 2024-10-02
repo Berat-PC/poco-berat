@@ -1,9 +1,7 @@
-
-
 let inputDNA = prompt("Please type your DNA only with the letters ACGT : ");
 
 while (inputDNA.length > 1000){
-   let inputDNA = prompt("Please type your DNA less than 1000 letters : ");
+   inputDNA = prompt("Please type your DNA less than 1000 letters : ");
 }
 
 // check if each element of DNA input is A , C , G ,T
@@ -18,7 +16,7 @@ function validateDNA(sequenceOfDNA) {
 }
 //4. while this validation is false => re prompt the binary number.
  while (!validateDNA(inputDNA)) {
-     console.log('[!] This is not DNA . Please enter again.');
+     console.log('[!] DNA must contain only "A,C,G,T" letters. Please enter again.');
      inputDNA = prompt('[?] Enter DNA sequence: ');
  }
 
