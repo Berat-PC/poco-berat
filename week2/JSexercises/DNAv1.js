@@ -1,6 +1,8 @@
+
+
 let inputDNA = prompt("Please type your DNA only with the letters ACGT : ");
 
-if (inputDNA.length > 1000){
+while (inputDNA.length > 1000){
    let inputDNA = prompt("Please type your DNA less than 1000 letters : ");
 }
 
